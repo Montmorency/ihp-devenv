@@ -11,8 +11,7 @@
   scripts.hello.exec = "echo hello from $GREET";
 
   enterShell = ''
-    hello
-    git --version
+    make -B build/ihp-lib
   '';
 
   # https://devenv.sh/pre-commit-hooks/
